@@ -1,0 +1,29 @@
+{
+  "name": "ipynb-loader",
+  "description": "ipython/jupyter notebook files loader for webpack",
+  "version": "0.0.1",
+  "author": "Nathan Gaberel <nathan@gnab.fr>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n6g7/ipynb-loader.git"
+  },
+  "keywords": [
+    "ipynb",
+    "ipython",
+    "jupyter",
+    "loader",
+    "notebook"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n6g7/ipynb-loader/issues"
+  },
+  "homepage": "https://github.com/n6g7/ipynb-loader#readme"
+}
