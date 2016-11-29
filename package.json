@@ -1,7 +1,7 @@
 {
   "name": "ipynb-loader",
   "description": "ipython/jupyter notebook files loader for webpack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Nathan Gaberel <nathan@gnab.fr>",
   "main": "index.js",
   "scripts": {

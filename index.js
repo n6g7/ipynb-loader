@@ -13,6 +13,8 @@ const getCellsOnly = (html) => cheerio.load(html)('#notebook-container').html();
 const postProcess = (args, output) => args.cellsOnly ? getCellsOnly(output) : output;
 
 module.exports = function(content) {
+  this.cacheable && this.cacheable(true);
+
   const args = Object.assign(
     {
       cellsOnly: false,
